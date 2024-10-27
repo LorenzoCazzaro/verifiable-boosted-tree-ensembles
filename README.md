@@ -52,7 +52,7 @@ See the README.md in the <em>src/lightgbm</em> folder.
 
 ### Verification - CARVE-GBM
 
-See the README.md in the src/carvegbm folder.
+See the README.md in the <em>src/carvegbm</em> folder.
 
 ### Verification - SILVA
 

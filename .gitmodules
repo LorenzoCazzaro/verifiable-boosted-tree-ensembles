@@ -1,9 +1,6 @@
 [submodule "src/verification/silva"]
 	path = src/verification/silva
 	url = https://github.com/LorenzoCazzaro/silva
-[submodule "src/training/lightgbm"]
-	path = src/training/lightgbm
-	url = https://github.com/LorenzoCazzaro/LightGBM-verifiable-boosted-tree-ensembles
 [submodule "src/verification/carvegbm/external/cmd_line_parser"]
 	path = src/verification/carvegbm/external/cmd_line_parser
 	url = https://github.com/jermp/cmd_line_parser
