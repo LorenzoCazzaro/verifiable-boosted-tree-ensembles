@@ -64,13 +64,19 @@ See the README.md in the <em>src/silva</em> folder.
 
 See the README.md in the <em>src/lightgbm</em> folder.
 
+Example: `./lightgbm/lightgbm config=train.conf boosting=gbdt data=../../datasets/mnist26/dataset/training_set_normalized.csv valid=../../datasets/mnist26/dataset/validation_set_normalized.csv num_trees=500 num_leaves=16 k=0.01 seed=0 output_model=../../datasets/mnist26/models/gbdt_lse/lightgbm_lse_best_0_16_inf_0.01_subflsc_-1.txt p=inf learning_rate=0.1 early_stopping_round=50 feature_fraction=1 verbose=-1` (run it in the <em>src/training/lightgbm/build</em> folder).
+
 ### Verification - CARVE-GBM
 
 See the README.md in the src/carve folder.
 
+Example: `./verify -i ../../../datasets/mnist26/models/gbdt_lse/<model_name> -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p inf -k 0.01 -ioi -1` (run it in the <em>src/verification/carvegbm/build</em> folder).
+
 ### Verification - SILVA
 
 See the README.md in the <em>src/silva</em> folder.
+
+Example: `./silva/src/silva ../datasets/mnist26/models/gbdt/<model_name> ../datasets/mnist26/dataset/test_set_normalized.csv --perturbation l_inf 0.01 --index-of-instance -1 --voting softargmax` (run it in the <em>src/verification/silva</em> folder).
 
 ## Basic test
 
@@ -81,3 +87,13 @@ TBD
 ## Generate experimental results
 
 TBD
+
+## Credits
+
+If you use this artifact in your work, please add a reference/citation to our paper. You can use the following BibTeX entry:
+
+TBD
+
+## Support
+
+If you want to ask questions about the artifact and notify bugs, feel free to contact us by sending an email to lorenzo.cazzaro@unive.it.

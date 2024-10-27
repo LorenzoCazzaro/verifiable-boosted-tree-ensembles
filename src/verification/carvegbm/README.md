@@ -28,15 +28,14 @@ Run CARVE in the <em>src</em> folder to verify large-spread ensembles. It requir
 -   `-p` option: the norm ("inf" or a number)
 -   `-k` option: the perturbation norm.
 -   `-ioi` option: the index of the instance in the test set on which verify the robustness of the model. `-1` for indicating every instance of the test set.
+-   `--verbose` option: optional parameter. Print more information, like the query status.
 
 `./verify -i <path_to_model> -t <path_to_test_set> -p <p_value> -k <k_value> -ioi <ioi_value>`
 
 ### Examples
 
-`./verify -i ../../../datasets/mnist26/models/rf/??? -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p inf -k 0.01 -ioi -1`
-
-`./verify -i ../../../datasets/mnist26/models/lse/validation/??? -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p 2 -k 0.01 -ioi -1`
+`./verify -i ../../../datasets/mnist26/models/gbdt_lse/??? -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p inf -k 0.01 -ioi -1`
 
 For running the verifier on the instance 2 of the test-set, use the "ioi" option:
 
-`./verify -i ../../../datasets/mnist26/models/rf/??? -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p inf -k 0.01 -ioi 2`
+`./verify -i ../../../datasets/mnist26/models/gbdt_lse/??? -t ../../../datasets/mnist26/dataset/test_set_normalized.csv -p inf -k 0.01 -ioi 2`
