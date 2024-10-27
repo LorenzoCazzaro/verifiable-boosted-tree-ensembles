@@ -31,7 +31,7 @@ You can use **docker** to run a container running Ubuntu and with all the depend
 
 ## Obtain the datasets
 
-You can produce the training sets and test sets used in our experimental evaluation by executing the bash script <em>download_and_split_datasets.sh<em> in the <em>src/datasets_utils</em> folder.
+You can produce the training sets and test sets used in our experimental evaluation by executing the bash script <em>download_and_split_datasets.sh</em> in the <em>src/datasets_utils</em> folder.
 
 If you want to use another dataset, you have to create the folder *datasets/<dataset_name>/* and the following folders in it:
 
