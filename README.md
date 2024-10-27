@@ -1,4 +1,4 @@
-# Verifiable Learning for Robust Boosted Tree Ensembles
+# Verifiable Boosted Tree Ensembles
 
 This repository contains the implementation of the training algorithm for large-spread boosted tree ensembles, based on LightGBM, and the efficient robustness verification algorithm CARVE-GBM presented by Calzavara et. al. in their research paper Verifiable Boosted Tree Ensembles accepted at the [46th IEEE Symposium on Security and Privacy 2025 (IEEE S&P 2025)](https://sp2025.ieee-security.org/).
 
