@@ -78,22 +78,6 @@ See the README.md in the <em>src/silva</em> folder.
 
 Example: `./silva/src/silva ../datasets/mnist26/models/gbdt/<model_name> ../datasets/mnist26/dataset/test_set_normalized.csv --perturbation l_inf 0.01 --index-of-instance -1 --voting softargmax` (run it in the <em>src/verification/silva</em> folder).
 
-## Basic test
-
-After compiling all the tools, you can run this simple test to check that everything works fine:
-
-TBD
-
-## Generate experimental results
-
-TBD
-
-## Credits
-
-If you use this artifact in your work, please add a reference/citation to our paper. You can use the following BibTeX entry:
-
-TBD
-
 ## Support
 
 If you want to ask questions about the artifact and notify bugs, feel free to contact us by sending an email to lorenzo.cazzaro@unive.it.
